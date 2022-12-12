@@ -1,0 +1,54 @@
+const dieData = [
+    {
+        id:1,
+        value:1,
+        isHeld:true
+    },
+    {
+        id:2,
+        value:1,
+        isHeld:true
+    },
+    {
+        id:3,
+        value:1,
+        isHeld:true
+    },
+    {
+        id:4,
+        value:1,
+        isHeld:true
+    },
+    {
+        id:5,
+        value:1,
+        isHeld:true
+    },
+    {
+        id:6,
+        value:1,
+        isHeld:true
+    },
+    {
+        id:7,
+        value:1,
+        isHeld:true
+    },
+    {
+        id:8,
+        value:1,
+        isHeld:true
+    },
+    {
+        id:9,
+        value:1,
+        isHeld:true
+    },
+    {
+        id:10,
+        value:1,
+        isHeld:true
+    },
+]
+
+export default dieData
