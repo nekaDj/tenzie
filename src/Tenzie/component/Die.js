@@ -17,7 +17,7 @@ export default function Die(){
     
     localStorage.clear();
 
-    console.log(refIntervalID.current)
+    // console.log(refIntervalID.current)
 
     useEffect(function(){
         if(yourScore < bestScore && bestScore > 0 && tenzies){
@@ -57,10 +57,10 @@ export default function Die(){
         })
         localStorage.setItem("dataDieSave", JSON.stringify(dieData))
         //localStorage.clear()
-        console.log("fuck you 2")
+        // console.log("fuck you 2")
         if(count === true){
             setTenzies(true)
-            console.log("YOUPI")
+            // console.log("YOUPI")
         }      
 
     },[dieData])
@@ -74,10 +74,10 @@ export default function Die(){
     }, [bestScore])
 
     useEffect(function(){
-        console.log("TEST")
+        // console.log("TEST")
         if(!tenzies){
-            console.log("Valeur de Tenzie "+tenzies)
-            console.log(refIntervalID.current)
+            // console.log("Valeur de Tenzie "+tenzies)
+            // console.log(refIntervalID.current)
             clearInterval(refIntervalID.current)
             refIntervalID.current = setInterval(function(){
                 const d = new Date();
