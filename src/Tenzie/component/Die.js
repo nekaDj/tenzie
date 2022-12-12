@@ -35,6 +35,7 @@ export default function Die(){
         }
         //localStorage.clear()
         //console.log("fuck you 1")
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     },[tenzies])
 
     useEffect(function(){
@@ -90,6 +91,8 @@ export default function Die(){
         }else{
             clearInterval(refIntervalID.current)
         }
+
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [yourTime])
 
     useEffect(function(){
